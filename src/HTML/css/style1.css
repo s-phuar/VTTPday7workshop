@@ -1,0 +1,123 @@
+h1, h2, h3{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+a{
+    color:brown;
+    text-decoration:dotted;
+}
+
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+nav{
+    width: auto;
+    height: 30px;
+    background-color:blanchedalmond;
+    /* padding: 20px 10px 10px 5px; */
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-style: italic;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+
+/* class selector */
+.header{
+    width: auto;
+    height: auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.topbox{
+    content: "";
+    clear: both;
+    display: table;
+    background-color: red;
+}
+
+.box{
+    background-color: aqua;
+    float: left;
+    width: 32%;
+    padding: 3px;
+}
+
+.box2{
+    background-color: green;
+    float: left;
+    width: 48%;
+    padding: 3px;
+}
+
+#article1 {
+    border: 2px  dotted green;
+    background-color: aqua;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+#article2 {
+    border: 2px dotted red;
+    background-color: green;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+.flex-container{
+    background-color: purple;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+}
+
+/* applies to div tag inside flex-cont */
+.flex-container > div{
+    background-color: yellow;
+    padding: 10px;
+    margin: 2px;
+    border: 3px dotted red;
+}
+
+.flex-container1{
+    background-color: rgb(200, 51, 200);
+    margin: 10px;
+    height: 300px;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flex-container1 > div{
+    background-color: yellow;
+    padding: 10px;
+    margin: 2px;
+    border: 3px dotted red;
+}
